@@ -4,41 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Amsterdam</h1>
-        <p>
-          Saturday 23:05, moderate rain <br />
-          Humidity: 87%, Wind: 7.2km/h
-        </p>
-      </div>
-      <div>☀️24°C</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Sobokar" target="_blank">
-        Yevheniia Sobokar</a
-      >
-      and is on
-      <a
-        href="https://github.com/Sobokar/weather-app-from-sobokar"
-        target="_blank"
-      >
-        GitHub
-      </a>
-      and hosted
-      <a href="https://weather-app-from-sobokar.netlify.app" target="_blank"
-        >on Netlify</a
-      >
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form class="city-searching-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            class="enter-city-field"
+            required
+          />
+          <input type="submit" value="Search" class="city-searching-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-app-meteo-data">
+          <div>
+            <h1 class="weather-app-city">Amsterdam</h1>
+            <p>
+              Saturday 23:05, moderate rain <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div class="weather-app-temperature">
+            <div class="weather-app-icon">☀️</div>
+            <div class="weather-app-temperature-value">24</div>
+            <div class="weather-app-temperature-unit">°C</div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Sobokar" target="_blank">
+          Yevheniia Sobokar</a
+        >
+        and is on
+        <a
+          href="https://github.com/Sobokar/weather-app-from-sobokar"
+          target="_blank"
+        >
+          GitHub
+        </a>
+        and hosted
+        <a href="https://weather-app-from-sobokar.netlify.app" target="_blank"
+          >on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>

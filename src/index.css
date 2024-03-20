@@ -29,7 +29,7 @@ main {
   border: none;
   border-radius: 8px;
   background-color: #f9f7fe;
-  width: 75%;
+  width: 80%;
   padding: 20px;
   font-size: 16px;
 }
@@ -39,7 +39,7 @@ main {
   border: none;
   border-radius: 6px;
   color: white;
-  padding: 20px 20px;
+  padding: 20px 25px;
   margin-left: 7px;
   line-height: 1;
   font-size: 16px;
@@ -71,11 +71,11 @@ p {
   margin-top: 10px;
 }
 .weather-app-icon {
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   margin-right: 10px;
   position: relative;
-  top: 8px;
+  top: 2px;
 }
 .weather-app-temperature-value {
   font-size: 80px;
@@ -87,7 +87,7 @@ p {
   padding: 7px 0 0 0;
   position: relative;
 
-  margin-top: 5px;
+  margin-top: 2px;
 }
 
 footer {

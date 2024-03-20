@@ -71,7 +71,8 @@ p {
   margin-top: 10px;
 }
 .weather-app-icon {
-  font-size: 40px;
+  width: 90px;
+  height: 90px;
   margin-right: 10px;
   position: relative;
   top: 8px;
@@ -79,12 +80,14 @@ p {
 .weather-app-temperature-value {
   font-size: 80px;
   font-weight: 700;
+  line-height: 80px;
 }
 .weather-app-temperature-unit {
   font-size: 28px;
   padding: 7px 0 0 0;
   position: relative;
-  top: -30px;
+
+  margin-top: 5px;
 }
 
 footer {

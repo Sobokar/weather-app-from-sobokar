@@ -100,8 +100,16 @@ p {
   font-size: 16px;
   opacity: 0.5;
 }
+.weather-forecast-icon {
+  width: 90px;
+
+  height: 90px;
+  display: block;
+  margin: 0 auto;
+}
+
 .weather-forecast-temperature {
-  font-size: 13px;
+  font-size: 20px;
 }
 .weather-forecast-temperature-max {
   font-weight: bold;
